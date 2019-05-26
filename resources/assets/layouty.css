@@ -20,6 +20,10 @@ table.table-fields thead tr th {
     padding: 0;
 }
 
+.table.table-fields .form-group{
+    margin-bottom: 0;
+}
+
 table.table-fields .form-group.has-error .control-label,
 table.table-fields .form-group.has-error br,
 div.table-fields .form-group.has-error br {
