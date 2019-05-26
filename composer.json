@@ -1,0 +1,33 @@
+{
+    "name": "laext/layouty",
+    "description": "This is a laravel-admin layouty extension",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "layout"],
+    "homepage": "https://github.com/laext/layouty",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linkimfly",
+            "email": "linkimfly@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laext\\Layouty\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laext\\Layouty\\LayoutyServiceProvider"
+            ]
+        }
+    }
+}
